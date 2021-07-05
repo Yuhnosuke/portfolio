@@ -1,4 +1,4 @@
-# portfolio
+# Yuhnosuk Hashimoto's portfolio
 
 ## Project setup
 ```
