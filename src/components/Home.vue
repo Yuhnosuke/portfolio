@@ -7,7 +7,7 @@
 
 <script>
 export default {
-    name: 'Main',
+    name: 'Home',
     data: function() {
         return {
             name: 'Yuhnosuk Hashimoto',
