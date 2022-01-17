@@ -1,14 +1,14 @@
 <template lang="pug">
   #app
     Home
-    About
+    //- About
     Skills
     Contact
 </template>
 
 <script>
 import Home from '@/components/Home.vue'
-import About from '@/components/About.vue'
+// import About from '@/components/About.vue'
 import Skills from '@/components/Skills.vue'
 import Contact from '@/components/Contact.vue'
 
@@ -16,7 +16,7 @@ export default {
   name: 'App',
   components: {
     Home,
-    About,
+    // About,
     Skills,
     Contact,
   },

@@ -12,6 +12,7 @@ export default {
 @import './styles/_variables.scss';
     #about {
         background-color: map-get($background-color, 'about');
+        font-size: map-get($font-size, 'sections');
         h3 {
             color: $font-color;
         }

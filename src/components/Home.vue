@@ -19,10 +19,10 @@ export default {
         flex-direction:column;
         justify-content: center;
         h1 {
-            font-size: 5rem;
+            font-size: map-get($font-size, 'name');
         }
         p {
-            font-size: 2.5rem;
+            font-size: map-get($font-size, 'job');
         }
         h1, p {
             color: $font-color;
