@@ -1,4 +1,8 @@
-$font-color: #F2DFBB;
+$font-color: (
+    home: #F2DFBB,
+);
+
+$c-white: #FFF;
 
 $font-size: (
     name: 5rem,
@@ -13,7 +17,7 @@ $background-color: (
     html: #B98A94,
     home: #BF0AB3,
     // about: #2ABF5E,
-    skills: #F2BB13,
-    contact: #1821D9,
-    footer: #04BF55,
+    skills: #DEDCC5,
+    contact: #BDCEDE,
+    footer: #738391,
 );

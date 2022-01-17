@@ -25,7 +25,7 @@ export default {
             font-size: map-get($font-size, 'job');
         }
         h1, p {
-            color: $font-color;
+            color:  map-get($font-color, 'home');
         }
     }
 </style>

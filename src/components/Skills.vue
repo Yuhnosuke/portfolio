@@ -24,7 +24,7 @@ export default {
         background-color: map-get($background-color, 'skills');
         padding: 50px 0;
         h3 {
-            color: #F2EADF;
+            color: $c-white;
             font-size: map-get($font-size, 'sections');
         }
         .skill-container {
@@ -38,7 +38,7 @@ export default {
                 ul {
                     list-style-type: none;
                     li {
-                        color: #F2DFBB;
+                        color: $c-white;
                         font-size: map-get($font-size, 'skills');
                         font-weight: 500;
                     }

@@ -21,13 +21,13 @@ export default {
             font-size: map-get($font-size, 'sections');
         }
         h3, p {
-            color: $font-color;
+            color: $c-white;
         }
         p {
             font-size: map-get($font-size, 'form');
         }
         a:active, a:visited, a:active {
-            color: $font-color;
+            color: $c-white;
         }
     }
     .form {
