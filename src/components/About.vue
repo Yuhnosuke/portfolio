@@ -9,7 +9,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import './styles/_variables.scss';
+    @import './styles/_variables.scss';
     #about {
         background-color: map-get($background-color, 'about');
         font-size: map-get($font-size, 'sections');

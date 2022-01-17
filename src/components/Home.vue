@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import './styles/_variables.scss';
+    @import './styles/_variables.scss';
     #home {
         background-color: map-get($background-color, 'home');
         height: 768px;

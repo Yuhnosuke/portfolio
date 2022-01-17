@@ -37,7 +37,7 @@ export default {
 </style>
 
 <style lang="scss">
-@import './styles/_variables.scss';
+  @import './styles/_variables.scss';
   html {
     background-color: map-get($background-color, 'html');
   }

@@ -6,7 +6,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import './styles/_variables.scss';
+    @import './styles/_variables.scss';
     #footer {
         background-color: map-get($background-color, 'footer');
         padding: 25px 0;
