@@ -1,7 +1,9 @@
 <template lang="pug">
     section#contact
         h3 Contact
-        label email
+        .form
+            p: a(href="https://docs.google.com/forms/d/1pa2nFX-mO67YGFR_Bj3CqvnVwefCMDQOYVkSnQ7P5lE/edit" target='_blank') Google Form
+            p よりお問い合わせください。
 </template>
 
 <script>
@@ -18,8 +20,15 @@ export default {
         h3 {
             font-size: map-get($font-size, 'sections');
         }
-        h3, label {
+        h3, p {
             color: $font-color;
         }
+        a:active, a:visited, a:active {
+            color: $font-color;
+        }
+    }
+    .form {
+        display: flex;
+        justify-content: center;
     }
 </style>
