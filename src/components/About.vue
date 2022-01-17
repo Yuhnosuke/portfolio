@@ -1,15 +1,19 @@
 <template lang="pug">
-    .about
-        p {{ explanation }}
+    section#about
+        h3 About
 </template>
 
 <script>
 export default {
     name: 'About',
-    data: function() {
-        return {
-            explanation: 'This site is developed by a programmer who is going to hack this world.'
-        }
-    }
 }
 </script>
+<style lang="scss" scoped>
+@import './styles/_variables.scss';
+    #about {
+        background-color: map-get($background-color, 'about');
+        h3 {
+            color: $font-color;
+        }
+    }
+</style>
