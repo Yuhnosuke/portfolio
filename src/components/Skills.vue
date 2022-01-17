@@ -9,7 +9,7 @@ export default {
     name: 'Skills',
     data: function() {
         return {
-           webSkills: ['JavaScript', 'Python']
+            webSkills: ['JavaScript', 'Python'],
         }
     }
 }
