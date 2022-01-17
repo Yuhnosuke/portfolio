@@ -20,6 +20,7 @@
                 padding: 10px 0;
                 a {
                     color: $font-color;
+                    font-size: map-get($font-size, 'sns');
                 }
             }
         }
