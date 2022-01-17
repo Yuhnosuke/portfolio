@@ -19,13 +19,13 @@
                 width: 25%;
                 padding: 10px 0;
                 a {
-                    color: #FFF;
+                    color: $c-white;
                     font-size: map-get($font-size, 'sns');
                 }
             }
         }
     }
     a:active, a:visited, a:active {
-        color: #FFF;
+        color: $c-white;
     }
 </style>
