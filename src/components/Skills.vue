@@ -32,7 +32,7 @@ export default {
             font-size: map-get($font-size, 'sections');
         }
         .skill-container {
-            width: 60%;
+            width: 50%;
             margin: 0 auto;
             display: flex;
             justify-content: center;
