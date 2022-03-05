@@ -10,6 +10,10 @@
             .backend
                 ul
                     li Python
+            .sem
+                ul
+                    li Google Analytics
+                    li Google Tag Manager
 </template>
 
 <script>
@@ -32,7 +36,7 @@ export default {
             margin: 0 auto;
             display: flex;
             justify-content: center;
-            .front, .backend {
+            .front, .backend, .sem {
                 width: 50%;
                 padding: 10px 0;
                 ul {

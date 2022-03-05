@@ -1,7 +1,7 @@
 <template lang="pug">
     section#home
         h1 Yuhnosuk Hashimoto
-        p Software Engineer
+        p Software Engineer engaged in Social Business
 </template>
 
 <script>

@@ -2,8 +2,8 @@
     section#contact
         h3 Contact
         .form
-            p: a(href="https://docs.google.com/forms/d/1pa2nFX-mO67YGFR_Bj3CqvnVwefCMDQOYVkSnQ7P5lE/edit" target='_blank') Google Form
-            P からお問い合わせください。
+            p Please contact me  with &nbsp;
+            p: a(href="https://docs.google.com/forms/d/1pa2nFX-mO67YGFR_Bj3CqvnVwefCMDQOYVkSnQ7P5lE/edit" target='_blank') Google Form.
 </template>
 
 <script>
