@@ -13,8 +13,5 @@ export default {
     #about {
         background-color: map-get($background-color, 'about');
         font-size: map-get($font-size, 'sections');
-        h3 {
-            color: $font-color;
-        }
     }
 </style>
