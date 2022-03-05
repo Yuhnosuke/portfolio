@@ -35,4 +35,14 @@ export default {
         justify-content: center;
         margin-top: 10px;
     }
+    @media screen and (max-width: 480px) {
+        #contact {
+            h3 {
+                font-size: map-get($font-size, 'sections') * $sp-font-threshold;
+            }
+            p {
+                font-size: map-get($font-size, 'form') * $sp-font-threshold;
+            }
+        }
+    }
 </style>

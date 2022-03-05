@@ -28,4 +28,12 @@
     a:active, a:visited, a:active {
         color: $c-white;
     }
+
+    @media screen and (max-width: 480px) {
+        #footer {
+            .sns {
+                width: 100%;
+            }
+        }
+    }
 </style>

@@ -50,4 +50,22 @@ export default {
             }
         }
     }
+    @media screen and (max-width: 480px) {
+        #skills {
+            h3 {
+                font-size: map-get($font-size, 'sections') * $sp-font-threshold;
+            }
+            .skill-container {
+                width: 80%;
+                .front, .backend, .sem {
+                    ul {
+                        li {
+                            font-size: map-get($font-size, 'skills') * $sp-font-threshold;
+                            margin-bottom: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 </style>
