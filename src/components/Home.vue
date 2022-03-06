@@ -16,7 +16,7 @@ export default {
     @import './styles/_variables.scss';
     #home {
         background-color: map-get($background-color, 'home');
-        height: 760px;
+        height: 770px;
         width: 100%;
         display: flex;
         flex-direction:column;
